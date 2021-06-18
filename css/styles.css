@@ -1,0 +1,234 @@
+body{
+    margin:0px;/*this means that all four sides of the body will have zero margin*/
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    font-family: 'Sacramento', cursive; 
+    margin-bottom: 0;
+    color: #66BFBF;  
+}
+h2.firsth2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 200%;
+    color: #66BFBF;
+    margin-top: 0px;
+    position: relative;
+    display: inline-block;
+    top:200px;
+    font-weight: bold;
+    line-height: 2;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    font-size: 2rem;
+    margin-top:0px;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color:#11999E;
+}
+a{
+    color:#11999E;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 3em;
+    margin:5px;
+    text-decoration:none;
+}
+a:hover{
+    color:purple
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    color:#11999E;
+    font-weight:2rem;
+    font-size: smaller;
+}
+.firsttable{
+    padding:5px 20px 10px 20px;
+    width: 80%;
+    margin:0px auto 40px;
+    display:inline-block;   
+    border-style: dashed;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.td{
+    color: #11999E;
+}
+.secondtable{
+    display: inline-block;
+    padding-top:3px;
+}
+.topdivp{
+    position: absolute;
+    display: inline-block;
+    left:538px;
+    top:160px;
+}
+.topdivision{
+    background-color: #d1f8f1;
+    position: relative;   
+    
+}
+
+.mountain{
+ 
+    position: relative;
+    display: inline-block;
+    top:170px;
+    
+
+}
+.heading1
+{
+    margin-top: 0;
+    position: absolute;
+    display: inline-block;
+    font-family: 'Sacramento', cursive;
+    font-size:400%;/*100% equivalent to 16 pixels and hence you can select the percentage to be greater than 100 1 em is also equivalent to 16 px this is an example of dynamic font size and would change if we would change the size in google settings*/
+    left: 470px;
+    top:75px;
+
+  
+}
+.profile-pic{
+    border-radius: 100%;
+    display: inline-block;
+    padding: 20px;
+    
+}
+.middle-container{
+    background-color:#f6f8ae;
+}
+.bottom-container{
+    background-color:#e9f034;
+    padding: 20px;
+
+}
+img.python{
+    border-radius:100%;
+    height:160px;
+    width:160px;
+    background-color: lightgreen;
+    position:relative;
+    right:175px;
+}
+hr{
+    border-style: dotted none none none;
+    border-color: gray;
+    border-width: 5px;
+    width:7.5%;
+    margin:10px auto;
+    
+}
+img.html{
+    border-radius: 2%;
+    height: 160px;
+    width:160px;
+    position: relative;
+    right:5px;
+}
+img.mail{
+    height: 20px;
+    width:20px;
+    position: relative;
+    top:5px;
+    right:2px;
+    margin-right: 2px;
+}
+img.c{
+    height: 160px;
+    width: 160px;
+    position: relative;
+    left:160px;
+}
+img.phone
+{
+    height: 20px;
+    width:20px;
+    position: relative;
+    top:5px;
+    right:4px;
+    left:3px;
+    padding-right: 10px;
+}
+img.linkedin{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    left:2px;
+    top:4px;
+    padding: 2px;
+    margin-right: 5px;
+}
+img.fb{
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    left:2px;
+    top:4px;
+    padding: 2px;
+    margin-right: 10px;
+}
+.pythonheading{
+    position:relative;
+    display: block;
+    right: 340px;
+    
+}
+.htmlheading{
+
+    margin: 10px auto 20px;
+    display:inline-block;
+    position:relative;
+    left:20px;
+    bottom:60px;
+}
+.cheading{
+    display:inline-block;
+    position:relative;
+    bottom: 60px;
+    left:290px;
+}
+.bottomline{
+    margin-bottom: 0px;
+}
+.BUTTON_DIL {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #3D94F6;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .BUTTON_DIL:hover {
+    border: solid #337FED 1px;
+    background: #1E62D0;
+    background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+ }
